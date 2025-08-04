@@ -6,10 +6,11 @@
     <title>Recipe Finder App</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <div
-      class="min-h-screen h-screen overflow-y-scroll border border-red-500 w-full bg-gray-900 text-white relative"
+      class="min-h-screen h-screen overflow-y-scroll w-full bg-gray-900 text-white relative"
     >
       <div
         class="loader h-full w-full fixed z-40 backdrop-blur-xl hidden flex justify-center items-center"
@@ -19,13 +20,13 @@
       <header
         class="bg-gray-800/70 sticky z-50 top-0 left-0 backdrop-blur-xl p-5 shadow-lg shadow-gray-700/50"
       >
-        <nav class="flex justify-between items-center">
-          <div class="flex-3/5" id="logo">
-            <h3 class="text-2xl tracking-loose font-semibold cursor-pointer">
+        <nav class="flex gap-2 justify-between items-center">
+          <div class="sm:flex-3/5 flex-2/5" id="logo">
+            <h3 class="sm:text-2xl text-lg tracking-loose font-semibold cursor-pointer">
               RecipeFinder
             </h3>
           </div>
-          <form id="searchForm" class="flex gap-2 items-center flex-2/5">
+          <form id="searchForm" class="flex gap-2 items-center justify-end flex-3/5 sm:flex-2/5">
             <div class="w-3/4">
               <input
                 type="search"
@@ -36,9 +37,9 @@
             <button
               id="search"
               type="submit"
-              class="p-2 px-6 text-sm rounded-lg bg-green-500 cursor-pointer"
+              class="text-md hover:bg-green-500 hover:text-white ring-2 ring-green-500 py-1 px-2 rounded-lg cursor-pointer text-green-500"
             >
-              Search
+              <i class="fa-solid fa-magnifying-glass"></i>
             </button>
           </form>
         </nav>
@@ -58,13 +59,13 @@
         <!-- Modal backdrop -->
         <div
           id="recipe-modal"
-          class="fixed inset-0 z-50 flex items-center justify-center bg-gray-900/70 bg-opacity-60 hidden"
+          class="fixed top-0 left-0 inset-0 z-50 max-h-full md:px-0 px-3 backdrop-blur-lg flex items-center justify-center bg-gray-900/70 bg-opacity-60 hidden"
         >
           
         </div>
       </main>
       <footer class="bg-gray-700 p-5 text-center w-full">
-        <h3>Copyright &copy; | Made with &hearts;</h3>
+        <h3>Copyright &copy; | Made with &hearts; Sumit Singh</h3>
       </footer>
     </div>
 
