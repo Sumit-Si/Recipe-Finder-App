@@ -44,43 +44,58 @@ Place images in `assets/` and reference them with relative paths:
 
 ### 🖼 Screenshots
 
-<img src="./assets/landing-page.png" alt="Home" width="350"/>  
+<div align="center">
+<img src="./assets/landing-page.png" alt="Home" width="450"/>  
 **Home Page**
+</div>
 
 ---
 
-<img src="./assets/searching.png" alt="Searching" width="350"/>  
+<div align="center">
+<img src="./assets/searching.png" alt="Searching" width="450"/>  
 **Searching Recipes**
+</div>
 
 ---
 
-<img src="./assets/searched-recipes-data.png" alt="Home" width="350"/>  
+<div align="center">
+<img src="./assets/searched-recipes-data.png" alt="Home" width="450"/>  
 **Searced Recipes Result**
+</div>
 
 ---
-
-<img src="./assets/recipe-detail.png" alt="Recipe Modal" width="350"/>  
+<div align="center">
+<img src="./assets/recipe-detail.png" alt="Recipe Modal" width="450"/>  
 **Recipe Modal**
+</div>
 
 ---
 
-<img src="./assets/searched-recipes-data-laptop-view.png" alt="Searching" width="350"/>  
+<div align="center">
+<img src="./assets/searched-recipes-data-laptop-view.png" alt="Searching" width="450"/>  
 **Searced Recipes Result - laptop view**
+</div>
 
 ---
 
-<img src="./assets/searched-recipes-data-tablet-view.png" alt="Searching" width="350"/>  
+<div align="center">
+<img src="./assets/searched-recipes-data-tablet-view.png" alt="Searching" width="450"/>  
 **Searced Recipes Result - tablet view**
+</div>
 
 ---
 
-<img src="./assets/searched-recipes-data-phone-view.png" alt="Searching" width="350"/>  
+<div align="center">
+<img src="./assets/searched-recipes-data-phone-view.png" alt="Searching" width="450"/>  
 **Searced Recipes Result - phone view**
+</div>
 
 ---
 
-<img src="./assets/recipe-detail-phone-view.png" alt="Searching" width="350"/>  
+<div align="center">
+  <img src="./assets/recipe-detail-phone-view.png" alt="Searching" width="450"/>  
 **Recipe Modal - phone view**
+</div>
 
 ---
 
