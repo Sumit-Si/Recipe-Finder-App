@@ -138,4 +138,8 @@ Recipe-Finder-App/
 
 ### License
 
-This project is open source and available under the MIT License.
+This project is provided for learning/demo purposes.
+
+---
+
+Made with ❤️ Sumit Tomar
