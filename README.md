@@ -40,9 +40,8 @@ No environment variables or build steps are needed.
 
 ### Screenshots
 
-Place images in `assets/screenshots/` and reference them with relative paths:
+Place images in `assets/` and reference them with relative paths:
 
-```md
 ![Home](./assets/landing-page.png)
 ![Searching](./assets/searching.png)
 ![Search Results](./assets/searched-recipes-data.png)
@@ -52,7 +51,6 @@ Place images in `assets/screenshots/` and reference them with relative paths:
 ![Search Results - phone view](./assets/searched-recipes-data-phone-view.png)
 ![Recipe Modal - phone view](./assets/recipe-detail-phone-view.png)
 
-```
 
 ### Project Structure
 
