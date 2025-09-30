@@ -42,15 +42,47 @@ No environment variables or build steps are needed.
 
 Place images in `assets/` and reference them with relative paths:
 
-![Home](./assets/landing-page.png)
-![Searching](./assets/searching.png)
-![Search Results](./assets/searched-recipes-data.png)
-![Recipe Modal](./assets/recipe-detail.png)
-![Search Results - laptop view](./assets/searched-recipes-data-laptop-view.png)
-![Search Results - tablet view](./assets/searched-recipes-data-tablet-view.png)
-![Search Results - phone view](./assets/searched-recipes-data-phone-view.png)
-![Recipe Modal - phone view](./assets/recipe-detail-phone-view.png)
+### 🖼 Screenshots
 
+<img src="./assets/landing-page.png" alt="Home" width="350"/>  
+**Home Page**
+
+---
+
+<img src="./assets/searching.png" alt="Searching" width="350"/>  
+**Searching Recipes**
+
+---
+
+<img src="./assets/searched-recipes-data.png" alt="Home" width="350"/>  
+**Searced Recipes Result**
+
+---
+
+<img src="./assets/recipe-detail.png" alt="Recipe Modal" width="350"/>  
+**Recipe Modal**
+
+---
+
+<img src="./assets/searched-recipes-data-laptop-view.png" alt="Searching" width="350"/>  
+**Searced Recipes Result - laptop view**
+
+---
+
+<img src="./assets/searched-recipes-data-tablet-view.png" alt="Searching" width="350"/>  
+**Searced Recipes Result - tablet view**
+
+---
+
+<img src="./assets/searched-recipes-data-phone-view.png" alt="Searching" width="350"/>  
+**Searced Recipes Result - phone view**
+
+---
+
+<img src="./assets/recipe-detail-phone-view.png" alt="Searching" width="350"/>  
+**Recipe Modal - phone view**
+
+---
 
 ### Project Structure
 
